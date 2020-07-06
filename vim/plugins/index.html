@@ -108,10 +108,12 @@
     <div class="menu">
         <p class="menu-label">Plugin Categories</p>
         <ul class="menu-list">
-  <li><a href="#code-development">Code Development</a></li>
+  <li><a href="#alignment">Alignment</a></li>
+  <li><a href="#case">Case</a></li>
   <li><a href="#clipboard">Clipboard</a></li>
-  <li><a href="#cut--paste">Cut &amp; Paste</a></li>
+  <li><a href="#code-development">Code Development</a></li>
   <li><a href="#configuration">Configuration</a></li>
+  <li><a href="#cut--paste">Cut &amp; Paste</a></li>
   <li><a href="#diff">Diff</a></li>
   <li><a href="#encryption">Encryption</a></li>
   <li><a href="#file-browsing">File Browsing</a></li>
@@ -119,13 +121,15 @@
   <li><a href="#http--rest--graphql--json">HTTP / REST / GraphQL / JSON</a></li>
   <li><a href="#improve-your-skills">Improve Your Skills</a></li>
   <li><a href="#macros">Macros</a></li>
-  <li><a href="#movement--smart-brackets--alignment--basic-editing">Movement / Smart Brackets / Alignment / Basic Editing</a></li>
+  <li><a href="#movement--substitute--swap">Movement / Substitute / Swap</a></li>
   <li><a href="#note-taking">Note Taking</a></li>
   <li><a href="#plugin-management">Plugin Management</a></li>
   <li><a href="#quickfix">QuickFix</a></li>
   <li><a href="#repl--interact-with-outside-programs">REPL / Interact with outside programs</a></li>
+  <li><a href="#scrolling">Scrolling</a></li>
   <li><a href="#search--navigation">Search / Navigation</a></li>
   <li><a href="#session">Session</a></li>
+  <li><a href="#smart-quotes--smart-brackets--pairs">Smart Quotes / Smart Brackets / Pairs</a></li>
   <li><a href="#startup">Startup</a></li>
   <li><a href="#statusline--tabline">Statusline / Tabline</a></li>
   <li><a href="#terminal">Terminal</a></li>
@@ -146,6 +150,27 @@
     <p>An attempt to organize plugins/packages categorically. It is not meant to be exhaustive. I have not tried many of these
 plugins. See also <a href="https://vimawesome.com/">Vim Awesome</a> for plugins organized by rating, category, and some other
 thing. But, like this list, it is not <em>all</em> plugins.</p>
+
+<h2 id="alignment">Alignment</h2>
+<ul>
+  <li><a href="https://github.com/junegunn/vim-easy-align">Easyalign</a></li>
+  <li><a href="https://github.com/tommcdo/vim-lion">Lion</a></li>
+  <li><a href="https://github.com/godlygeek/tabular">Tabular</a></li>
+</ul>
+
+<h2 id="case">Case</h2>
+<ul>
+  <li><a href="https://github.com/nicwest/vim-camelsnek">Camelsnek</a></li>
+  <li><a href="https://github.com/arthurxavierx/vim-caser">Caser</a></li>
+</ul>
+
+<h2 id="clipboard">Clipboard</h2>
+<ul>
+  <li><a href="https://github.com/svermeulen/vim-easyclip">Easyclip</a></li>
+  <li><a href="https://github.com/kana/vim-fakeclip">Fakeclip</a></li>
+  <li><a href="https://github.com/christoomey/vim-system-copy">System Clipboard</a></li>
+  <li><a href="https://github.com/roxma/vim-tmux-clipboard">Tmux Clipboard</a></li>
+</ul>
 
 <h2 id="code-development">Code Development</h2>
 
@@ -258,24 +283,17 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
   <li><a href="https://github.com/liuchengxu/vista.vim">Vista</a></li>
 </ul>
 
-<h2 id="clipboard">Clipboard</h2>
+<h2 id="configuration">Configuration</h2>
 <ul>
-  <li><a href="https://github.com/svermeulen/vim-easyclip">Easyclip</a></li>
-  <li><a href="https://github.com/kana/vim-fakeclip">Fakeclip</a></li>
-  <li><a href="https://github.com/christoomey/vim-system-copy">System Clipboard</a></li>
-  <li><a href="https://github.com/roxma/vim-tmux-clipboard">Tmux Clipboard</a></li>
+  <li><a href="https://github.com/weilbith/vim-localrc">Localrc</a></li>
+  <li><a href="https://github.com/tpope/vim-sensible">Sensible</a></li>
 </ul>
 
 <h2 id="cut--paste">Cut &amp; Paste</h2>
 <ul>
   <li><a href="https://github.com/svermeulen/vim-cutlass">Cutlass</a></li>
+  <li><a href="https://github.com/matze/vim-move">Move</a></li>
   <li><a href="https://github.com/svermeulen/vim-yoink">Yoink</a></li>
-</ul>
-
-<h2 id="configuration">Configuration</h2>
-<ul>
-  <li><a href="https://github.com/weilbith/vim-localrc">Localrc</a></li>
-  <li><a href="https://github.com/tpope/vim-sensible">Sensible</a></li>
 </ul>
 
 <h2 id="diff">Diff</h2>
@@ -353,29 +371,15 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
   <li><a href="https://github.com/svermeulen/vim-macrobatics">Macrobatics</a></li>
 </ul>
 
-<h2 id="movement--smart-brackets--alignment--basic-editing">Movement / Smart Brackets / Alignment / Basic Editing</h2>
+<h2 id="movement--substitute--swap">Movement / Substitute / Swap</h2>
 <ul>
-  <li><a href="https://github.com/nicwest/vim-camelsnek">Camelsnek</a></li>
-  <li><a href="https://github.com/arthurxavierx/vim-caser">Caser</a></li>
-  <li><a href="https://github.com/rhysd/clever-f.vim">clever-f</a></li>
-  <li><a href="https://github.com/doums/coBra">coBra</a></li>
   <li><a href="https://github.com/flwyd/vim-conjoin">Conjoin</a></li>
-  <li><a href="https://github.com/Raimondi/delimitMate">Delimitmate</a></li>
-  <li><a href="https://github.com/junegunn/vim-easy-align">Easyalign</a></li>
   <li><a href="https://github.com/tpope/vim-endwise">Endwise</a></li>
   <li><a href="https://github.com/tommcdo/vim-exchange">Exchange</a></li>
   <li><a href="https://github.com/AndrewRadev/inline_edit.vim">Inline Edit</a></li>
-  <li><a href="https://github.com/tommcdo/vim-lion">Lion</a></li>
-  <li><a href="https://github.com/andymass/vim-matchup">Matchup</a></li>
-  <li><a href="https://github.com/matze/vim-move">Move</a></li>
-  <li><a href="https://github.com/unblevable/quick-scope">Quick Scope</a></li>
-  <li><a href="https://github.com/machakann/vim-sandwich">Sandwich</a></li>
   <li><a href="https://github.com/christoomey/vim-sort-motion">Sort Motion</a></li>
   <li><a href="https://github.com/svermeulen/vim-subversive">Subversive</a></li>
-  <li><a href="https://github.com/tpope/vim-surround">Surround</a></li>
   <li><a href="https://github.com/machakann/vim-swap">Swap</a></li>
-  <li><a href="https://github.com/godlygeek/tabular">Tabular</a></li>
-  <li><a href="https://github.com/tpope/vim-unimpaired">Unimpaired</a></li>
   <li><a href="https://github.com/sedm0784/vim-you-autocorrect">You Autocorrect</a></li>
   <li><a href="https://github.com/arp242/zev.vim">Zev</a></li>
 </ul>
@@ -422,10 +426,17 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
   <li><a href="https://github.com/jpalardy/vim-slime">Slime</a></li>
 </ul>
 
+<h2 id="scrolling">Scrolling</h2>
+<ul>
+  <li><a href="https://github.com/joeytwiddle/sexy_scroller.vim">Sexy Scroller</a></li>
+  <li><a href="https://github.com/psliwka/vim-smoothie">Smoothie</a></li>
+</ul>
+
 <h2 id="search--navigation">Search / Navigation</h2>
 <ul>
   <li><a href="https://github.com/tpope/vim-abolish">Abolish</a></li>
   <li><a href="https://github.com/haya14busa/vim-asterisk">Asterisk</a></li>
+  <li><a href="https://github.com/rhysd/clever-f.vim">clever-f</a></li>
   <li><a href="https://github.com/romainl/vim-cool">Cool</a></li>
   <li><a href="https://github.com/easymotion/vim-easymotion">Easymotion</a></li>
   <li><a href="https://github.com/brooth/far.vim">Far</a></li>
@@ -433,6 +444,7 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
   <li><a href="https://github.com/wincent/loupe">Loupe</a></li>
   <li><a href="https://github.com/inkarkat/vim-mark">Mark</a></li>
   <li><a href="https://github.com/ipod825/msearch.vim">Msearch</a></li>
+  <li><a href="https://github.com/unblevable/quick-scope">Quick Scope</a></li>
   <li><a href="https://github.com/wincent/scalpel">Scalpel</a></li>
   <li><a href="https://github.com/google/vim-searchindex">Searchindex</a></li>
   <li><a href="https://github.com/markonm/traces.vim">Traces</a></li>
@@ -442,7 +454,18 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
 <ul>
   <li><a href="https://github.com/tpope/vim-obsession">Obsession</a></li>
   <li><a href="https://github.com/xolox/vim-session">Session</a></li>
+  <li><a href="https://github.com/ydhamija96/uss-sessions.vim">Ultra Stupid Simple</a></li>
   <li><a href="https://github.com/thaerkh/vim-workspace">Workspace</a></li>
+</ul>
+
+<h2 id="smart-quotes--smart-brackets--pairs">Smart Quotes / Smart Brackets / Pairs</h2>
+<ul>
+  <li><a href="https://github.com/doums/coBra">coBra</a></li>
+  <li><a href="https://github.com/Raimondi/delimitMate">Delimitmate</a></li>
+  <li><a href="https://github.com/andymass/vim-matchup">Matchup</a></li>
+  <li><a href="https://github.com/machakann/vim-sandwich">Sandwich</a></li>
+  <li><a href="https://github.com/tpope/vim-surround">Surround</a></li>
+  <li><a href="https://github.com/tpope/vim-unimpaired">Unimpaired</a></li>
 </ul>
 
 <h2 id="startup">Startup</h2>
@@ -522,12 +545,14 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
 <h2 id="uncategorized">Uncategorized</h2>
 <ul>
   <li><a href="https://github.com/tpope/vim-apathy">Apathy</a></li>
+  <li><a href="https://github.com/djoshea/vim-autoread">Autoread</a></li>
   <li><a href="https://github.com/tpope/vim-characterize">Characterize</a></li>
   <li><a href="https://github.com/tpope/vim-eunuch">Eunuch</a></li>
   <li><a href="https://github.com/junegunn/goyo.vim">Goyo</a></li>
   <li><a href="https://github.com/mhinz/vim-halo">Halo</a></li>
   <li><a href="https://github.com/machakann/vim-highlightedyank">Highlighted Yank</a></li>
   <li><a href="https://github.com/farmergreg/vim-lastplace">Lastplace</a></li>
+  <li><a href="https://github.com/junegunn/limelight.vim">Limelight</a></li>
   <li><a href="https://github.com/junegunn/vim-peekaboo">Peekaboo</a></li>
   <li><a href="https://github.com/airblade/vim-rooter">Rooter</a></li>
   <li><a href="https://github.com/tpope/vim-speeddating">Speed Dating</a></li>
