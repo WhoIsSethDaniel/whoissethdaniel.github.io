@@ -216,6 +216,8 @@ Code</a></li>
 <ul>
   <li><a href="https://medium.com/a-journey-with-go/go-multiple-errors-management-a67477628cf1">Go: Multiple Errors Management
 </a></li>
+  <li><a href="https://commandcenter.blogspot.com/2017/12/error-handling-in-upspin.html">Error Handling in Upspin</a></li>
+  <li><a href="https://middlemost.com/failure-is-your-domain/">Failure is your Domain</a></li>
 </ul>
 
 <h3 id="guides">Guides</h3>
@@ -288,11 +290,15 @@ already built in to golangci-lint.</li>
   <li><a href="https://dmv.myhatchpad.com/insight/mocking-techniques-for-go/">Mocking Techniques For Go</a></li>
 </ul>
 
+<h3 id="web-dev--microservices--http">Web Dev / Microservices / HTTP</h3>
+<ul>
+  <li><a href="https://www.mailgun.com/blog/http-2-cleartext-h2c-client-example-go/">HTTP/2 Cleartext (H2C) Client Example in Go</a></li>
+</ul>
+
 <h3 id="uncategorized">Uncategorized</h3>
 <p>Mostly a disorganized list of articles that I would like to read. I plan on organizing them over time. This is not an
 endorsement of the content of any of these articles.</p>
 <ul>
-  <li><a href="https://commandcenter.blogspot.com/2017/12/error-handling-in-upspin.html">Error Handling in Upspin</a></li>
   <li><a href="https://medium.com/microhq/what-is-micro-its-just-the-future-of-microservices-development-c6897ff0efbb">What is Micro? It's Just the Future of Microservices Development</a></li>
   <li><a href="https://medium.com/@jake0malay3/7-tips-on-how-to-write-kick-ass-high-performance-golang-microservices-9f71d4c67a0a">7 tips on how to write kick-ass high performance Golang microservices</a></li>
   <li><a href="https://stackoverflow.com/questions/55442878/organize-local-code-in-packages-using-go-modules/57314494#57314494">Organize Local Code in Packages Using Go Modules</a></li>
@@ -373,12 +379,45 @@ it</a></li>
 
 <h1 id="code">Code</h1>
 
-<p>I have not had a chance to organize much of this. Just a dump of links. 
-What you probably want is <a href="https://pkg.go.dev">pkg.go.dev</a> anyway.</p>
+<p>What you probably want is <a href="https://pkg.go.dev">pkg.go.dev</a>.
+A simple categorization of Go package links I’ve collected.</p>
 
 <h3 id="database--datastore">Database / Datastore</h3>
 <ul>
   <li><a href="https://entgo.io/">Ent</a> - ORM</li>
+  <li><a href="https://github.com/golang-migrate/migrate">migrate</a></li>
+  <li><a href="https://github.com/jackc/tern">tern</a> - db migration tool</li>
+</ul>
+
+<h3 id="errors-1">Errors</h3>
+<ul>
+  <li><a href="https://github.com/hashicorp/errwrap">Errwrap</a></li>
+  <li><a href="https://github.com/neilotoole/errgroup">errgroup</a> - drop-in replacement for stdlib errgroup</li>
+  <li><a href="https://github.com/snwfdhmp/errlog">errlog</a></li>
+  <li><a href="https://github.com/JavierZunzunegui/zerrors#zerrors">zerrors</a></li>
+</ul>
+
+<h3 id="linting--code-analysis">Linting / Code Analysis</h3>
+<ul>
+  <li><a href="https://github.com/kisielk/errcheck">errcheck</a> - linter for unchecked errors</li>
+  <li><a href="https://github.com/golangci/awesome-go-linters#linters-helper-tools">Go Linters</a></li>
+  <li><a href="https://github.com/robaho/goanalyzer">goanalyzer</a></li>
+  <li><a href="https://github.com/loeffel-io/ls-lint">ls-lint</a> - file and directory name linter</li>
+  <li><a href="https://github.com/kyoh86/nolint">nolint</a> - turn off linting for specific lines in your code</li>
+</ul>
+
+<h3 id="plugins">Plugins</h3>
+<ul>
+  <li><a href="https://github.com/hashicorp/go-plugin">go-plugin</a> - go plugins using grpc</li>
+  <li><a href="https://github.com/natefinch/pie">Pie</a></li>
+</ul>
+
+<h3 id="scm--git--github">SCM / Git / GitHub</h3>
+<ul>
+  <li><a href="https://github.com/isacikgoz/gitbatch">Gitbatch</a></li>
+  <li><a href="https://github.com/go-git/go-git">go-git</a></li>
+  <li><a href="https://github.com/google/go-github">go-github</a> - client for GitHub API v3</li>
+  <li><a href="https://github.com/jesseduffield/lazygit">lazygit</a></li>
 </ul>
 
 <h3 id="testing-2">Testing</h3>
@@ -409,46 +448,38 @@ What you probably want is <a href="https://pkg.go.dev">pkg.go.dev</a> anyway.</p
   </li>
   <li><a href="https://github.com/gorilla">Gorilla</a></li>
   <li><a href="https://github.com/System-Glitch/goyave">Goyace</a></li>
+  <li><a href="https://github.com/deepmap/oapi-codegen">oapi-codegen</a></li>
 </ul>
 
 <h3 id="uncategorized-1">Uncategorized</h3>
+<p>I have not had a chance to organize much of this. Just a dump of links.</p>
 <ul>
   <li><a href="https://github.com/google/go-cloud">Go Cloud</a></li>
-  <li><a href="https://github.com/hashicorp/errwrap">Errwrap</a></li>
-  <li><a href="https://github.com/isacikgoz/gitbatch">Gitbatch</a></li>
   <li><a href="https://github.com/dominikbraun/cleanup">cleanup</a></li>
   <li><a href="https://github.com/nsqio/nsq">nsq</a></li>
   <li><a href="https://gomods/athens">Athens</a></li>
   <li><a href="https://github.com/containous/traefik">traefik</a></li>
-  <li><a href="https://github.com/golangci/awesome-go-linters#linters-helper-tools">Go Linters</a></li>
   <li><a href="https://github.com/slok/goresilience">Go Resilience</a></li>
   <li><a href="https://github.com/jonbodner/proteus">Proteus</a></li>
   <li><a href="https://github.com/rubyist/circuitbreaker">circuitbreaker</a></li>
   <li><a href="https://github.com/go-tomb/tomb">tomb</a></li>
   <li><a href="https://github.com/bserdar/watermelon">watermelon</a></li>
   <li><a href="https://github.com/robaho/go-trader">go-trader</a></li>
-  <li><a href="https://github.com/snwfdhmp/errlog">errlog</a></li>
   <li><a href="https://github.com/henvic/httpretty">httpretty</a></li>
   <li><a href="https://github.com/hibiken/asynq">asynq</a></li>
-  <li><a href="https://github.com/robaho/goanalyzer">goanalyzer</a></li>
   <li><a href="https://github.com/rs/zerolog">zerolog</a></li>
   <li><a href="https://github.com/gomods/athens">Athens</a></li>
   <li><a href="https://github.com/rogpeppe/gohack">gohack</a></li>
   <li><a href="https://github.com/tebeka/go2xunit">go2xunit</a></li>
-  <li><a href="https://github.com/deepmap/oapi-codegen">oapi-codegen</a></li>
   <li><a href="https://github.com/helixstream/go-ratelimit-manager">Ratelimit Manager</a></li>
   <li><a href="https://github.com/dexidp/dex">dex</a></li>
-  <li><a href="https://github.com/golang-migrate/migrate">migrate</a></li>
-  <li><a href="https://github.com/go-git/go-git">go-git</a></li>
   <li><a href="https://github.com/dtgorski/typex">typex</a></li>
   <li><a href="https://github.com/kumakichi/json-to-go">json-to-go</a></li>
-  <li><a href="https://github.com/JavierZunzunegui/zerrors#zerrors">zerrors</a></li>
   <li><a href="https://github.com/robfig/cron">cron</a></li>
-  <li><a href="https://github.com/jesseduffield/lazygit">lazygit</a></li>
   <li><a href="https://github.com/obsidiandynamics/goneli">goneli</a></li>
   <li><a href="https://github.com/ninedraft/enum2go">enum2go</a></li>
   <li><a href="https://github.com/uber-go/zap">zap</a></li>
-  <li><a href="https://github.com/uber-go/fx">fz</a></li>
+  <li><a href="https://github.com/uber-go/fx">fx</a></li>
   <li><a href="https://github.com/go101/gold">gold</a></li>
   <li><a href="https://github.com/yahoo/vssh">vssh</a></li>
   <li><a href="https://github.com/tinylib/msgp">msgp</a></li>
@@ -456,15 +487,10 @@ What you probably want is <a href="https://pkg.go.dev">pkg.go.dev</a> anyway.</p
   <li><a href="https://github.com/jondot/goweight">goweight</a> - analyze/troubleshoot a go binary</li>
   <li><a href="https://github.com/jpillora/go-template">go-template</a> - An automatic cross-compiling Go (golang) repository template using goreleaser and Github actions</li>
   <li><a href="https://github.com/moovweb/gvm">Go Version Manager</a></li>
-  <li><a href="https://github.com/kyoh86/nolint">nolint</a> - turn off linting for specific lines in your code</li>
-  <li><a href="https://github.com/hashicorp/go-plugin">go-plugin</a> - go plugins using grpc</li>
-  <li><a href="https://github.com/kisielk/errcheck">errcheck</a> - linter for unchecked errors</li>
   <li><a href="https://github.com/ohler55/ojg">ojg</a> - JSON parser</li>
-  <li><a href="https://github.com/loeffel-io/ls-lint">ls-lint</a> - file and directory name linter</li>
   <li><a href="https://github.com/endiangroup/compandauth">compandauth</a> - see accompanying <a href="https://endian.io/articles/compandauth/">article</a></li>
   <li><a href="https://github.com/akornatskyy/scheduler">scheduler</a> - cron-like job scheduler</li>
-  <li><a href="https://github.com/jackc/tern">tern</a> - db migration tool</li>
-  <li><a href="https://github.com/neilotoole/errgroup">errgroup</a> - drop-in replacement for stdlib errgroup</li>
+  <li><a href="https://github.com/cch123/supermonkey">supermonkey</a> - monkey patching</li>
 </ul>
 
 </div>
