@@ -268,11 +268,21 @@ already built in to golangci-lint.</li>
 <ul>
   <li><a href="https://goreleaser.com">Go Releaser</a></li>
   <li><a href="https://peter.bourgon.org/blog/2020/09/14/siv-is-unsound.html">Semantic Import Versioning is unsound</a></li>
+  <li><a href="https://qvault.io/2020/09/15/gos-major-version-handling-sucks-from-a-fanboy/">Go’s Major Versioning Sucks</a></li>
 </ul>
 
 <h3 id="profiling">Profiling</h3>
 <ul>
   <li><a href="https://github.com/felixge/fgprof">fgprof</a></li>
+</ul>
+
+<h3 id="routing">Routing</h3>
+<p>Some notes on routing: <a href="https://github.com/julienschmidt/httprouter">httprouter</a> uses a Trie for routing and is
+considered to be highly performant. For comparison, <a href="https://echo.labstack.com/guide/routing">Echo</a> uses a radix tree.</p>
+<ul>
+  <li><a href="https://technology.blog.gov.uk/2013/12/05/building-a-new-router-for-gov-uk/">Building a new router for GOV.UK</a></li>
+  <li><a href="https://benhoyt.com/writings/go-routing/">Different approaches to HTTP routing in Go</a></li>
+  <li><a href="https://blog.merovius.de/2017/06/18/how-not-to-use-an-http-router.html">How to not use an http-router in go</a></li>
 </ul>
 
 <h3 id="testing-1">Testing</h3>
@@ -379,6 +389,7 @@ harmful</a></li>
 it</a></li>
   <li><a href="https://deliveroo.engineering/2020/09/07/increase-the-reliability-of-a-golang-codebase-with-object-constructors.html">Increase the Reliability of a Go Codebase with Object
 Constructors</a></li>
+  <li><a href="https://blog.learngoprogramming.com/gotchas-of-defer-in-go-1-8d070894cb01">5 Gotchas of Defer in Go — Part I</a></li>
 </ul>
 
 <h1 id="code">Code</h1>
@@ -413,6 +424,11 @@ A simple categorization of Go package links I’ve collected.</p>
   <li><a href="https://github.com/robaho/goanalyzer">goanalyzer</a></li>
   <li><a href="https://github.com/loeffel-io/ls-lint">ls-lint</a> - file and directory name linter</li>
   <li><a href="https://github.com/kyoh86/nolint">nolint</a> - turn off linting for specific lines in your code</li>
+</ul>
+
+<h3 id="modules">Modules</h3>
+<ul>
+  <li><a href="https://github.com/icholy/gomajor">gomajor</a> - tool for helping upgrade the major version of a module</li>
 </ul>
 
 <h3 id="plugins">Plugins</h3>
@@ -457,6 +473,8 @@ A simple categorization of Go package links I’ve collected.</p>
   </li>
   <li><a href="https://github.com/gorilla">Gorilla</a></li>
   <li><a href="https://github.com/System-Glitch/goyave">Goyace</a></li>
+  <li><a href="https://github.com/grpc-ecosystem/grpc-gateway">grpc-gateway</a></li>
+  <li><a href="https://github.com/julienschmidt/httprouter">httprouter</a></li>
   <li><a href="https://github.com/deepmap/oapi-codegen">oapi-codegen</a></li>
 </ul>
 
