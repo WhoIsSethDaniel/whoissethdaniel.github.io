@@ -410,8 +410,11 @@ A simple categorization of Go package links I’ve collected.</p>
 
 <h3 id="database--datastore">Database / Datastore</h3>
 <ul>
-  <li><a href="https://entgo.io/">Ent</a> - ORM</li>
-  <li><a href="https://github.com/golang-migrate/migrate">migrate</a></li>
+  <li><a href="https://entgo.io/">Ent</a> - An entity framework for Go</li>
+  <li><a href="https://github.com/go-pg/pg">go-pg</a> - Golang ORM with focus on PostgreSQL features and performance</li>
+  <li><a href="https://github.com/go-gorm/gorm">gorm</a> - The fantastic ORM library for Golang</li>
+  <li><a href="https://github.com/golang-migrate/migrate">migrate</a> - Database migrations</li>
+  <li><a href="https://github.com/lib/pq">pq</a> - Pure Go Postgres driver for database/sql</li>
   <li><a href="https://github.com/jackc/tern">tern</a> - db migration tool</li>
 </ul>
 
@@ -429,25 +432,25 @@ A simple categorization of Go package links I’ve collected.</p>
 
 <h3 id="errors-1">Errors</h3>
 <ul>
-  <li><a href="https://github.com/hashicorp/errwrap">Errwrap</a></li>
+  <li><a href="https://github.com/hashicorp/errwrap">Errwrap</a> - library for wrapping and querying errors</li>
   <li><a href="https://github.com/neilotoole/errgroup">errgroup</a> - drop-in replacement for stdlib errgroup</li>
-  <li><a href="https://github.com/snwfdhmp/errlog">errlog</a></li>
-  <li><a href="https://github.com/JavierZunzunegui/zerrors#zerrors">zerrors</a></li>
+  <li><a href="https://github.com/snwfdhmp/errlog">errlog</a> - Reduce debugging time while programming Go</li>
 </ul>
 
 <h3 id="json--json-parsing-1">JSON / JSON Parsing</h3>
 <ul>
-  <li><a href="https://github.com/tidwall/gjson">gjson</a></li>
-  <li><a href="https://mholt.github.io/json-to-go/">json-to-go</a></li>
+  <li><a href="https://github.com/tidwall/gjson">gjson</a> - Get JSON values quickly</li>
+  <li><a href="https://mholt.github.io/json-to-go/">json-to-go</a> - converts JSON to a go struct</li>
   <li><a href="https://github.com/ohler55/ojg">ojg</a> - JSON parser</li>
-  <li><a href="https://github.com/simdjson/simdjson">simdjson</a></li>
+  <li><a href="https://github.com/simdjson/simdjson">simdjson</a> - Parsing gigabytes of JSON per second</li>
 </ul>
 
 <h3 id="linting--code-analysis">Linting / Code Analysis</h3>
 <ul>
   <li><a href="https://github.com/kisielk/errcheck">errcheck</a> - linter for unchecked errors</li>
   <li><a href="https://github.com/golangci/awesome-go-linters#linters-helper-tools">Go Linters</a></li>
-  <li><a href="https://github.com/robaho/goanalyzer">goanalyzer</a></li>
+  <li><a href="https://github.com/robaho/goanalyzer">goanalyzer</a> - improved go tool trace goroutine analysis</li>
+  <li><a href="https://github.com/golangci/golangci-lint">golangci-lint</a> - fast linter runner for go</li>
   <li><a href="https://github.com/loeffel-io/ls-lint">ls-lint</a> - file and directory name linter</li>
   <li><a href="https://github.com/kyoh86/nolint">nolint</a> - turn off linting for specific lines in your code</li>
 </ul>
@@ -463,26 +466,26 @@ A simple categorization of Go package links I’ve collected.</p>
 <ul>
   <li><a href="https://github.com/icholy/gomajor">gomajor</a> - tool for helping upgrade the major version of a module</li>
   <li><a href="https://sources.dev.pztrn.name/pztrn/giredore">giredore</a> - Giredore is an utility that does go-import redirects right</li>
-  <li><a href="https://goreleaser.com">Go Releaser</a></li>
+  <li><a href="https://goreleaser.com">Go Releaser</a> - Release Go projects as fast and easily as possible</li>
 </ul>
 
 <h3 id="plugins">Plugins</h3>
 <ul>
   <li><a href="https://github.com/hashicorp/go-plugin">go-plugin</a> - go plugins using grpc</li>
-  <li><a href="https://github.com/natefinch/pie">Pie</a></li>
+  <li><a href="https://github.com/natefinch/pie">Pie</a> - a toolkit for creating plugins for Go applications</li>
 </ul>
 
 <h3 id="profiling">Profiling</h3>
 <ul>
-  <li><a href="https://github.com/felixge/fgprof">fgprof</a></li>
+  <li><a href="https://github.com/felixge/fgprof">fgprof</a> - a sampling Go profiler that allows you to analyze On-CPU as well as Off-CPU (e.g. I/O) time together</li>
 </ul>
 
 <h3 id="scm--git--github">SCM / Git / GitHub</h3>
 <ul>
-  <li><a href="https://github.com/isacikgoz/gitbatch">Gitbatch</a></li>
-  <li><a href="https://github.com/go-git/go-git">go-git</a></li>
+  <li><a href="https://github.com/isacikgoz/gitbatch">Gitbatch</a> - manage your git repositories in one place</li>
+  <li><a href="https://github.com/go-git/go-git">go-git</a> - A highly extensible Git implementation in pure Go</li>
   <li><a href="https://github.com/google/go-github">go-github</a> - client for GitHub API v3</li>
-  <li><a href="https://github.com/jesseduffield/lazygit">lazygit</a></li>
+  <li><a href="https://github.com/jesseduffield/lazygit">lazygit</a> - simple terminal UI for git commands</li>
 </ul>
 
 <h3 id="testing-2">Testing</h3>
@@ -491,8 +494,8 @@ A simple categorization of Go package links I’ve collected.</p>
   <li><a href="https://github.com/orlangure/gnomock">gnomock</a> - test your code without writing mocks with ephemeral Docker containers</li>
   <li><a href="https://github.com/jstemmer/go-junit-report">go-junit-report</a></li>
   <li><a href="https://github.com/tebeka/go2xunit">go2xunit</a></li>
-  <li><a href="https://github.com/matryer/moq">Moq</a></li>
-  <li><a href="https://github.com/stretchr/testify">Testify</a></li>
+  <li><a href="https://github.com/matryer/moq">Moq</a> - Interface mocking tool for go generate</li>
+  <li><a href="https://github.com/stretchr/testify">Testify</a> - A toolkit with common assertions and mocks that plays nicely with the standard library</li>
 </ul>
 
 <h3 id="web-frameworks--toolkits">Web Frameworks / Toolkits</h3>
