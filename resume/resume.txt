@@ -1,6 +1,5 @@
 J. Seth Daniel
 job@sethdaniel.org
-https://github.com/WhoIsSethDaniel
 https://www.sethdaniel.dev/
 214-886-3770
 
@@ -33,7 +32,9 @@ EXPERIENCE
   
   Worked on services, written in both Go and Perl, that were meant to be used 
   for the tracking and management of silicon wafers during the assembly of
-  semiconductors. 
+  semiconductors. The services provided an API to query and manipulating the 
+  metadata for individual wafers as well as groups of wafers known as 'lots'.
+  The backend datastore was SQLite. 
 
   Unfortunately the software did not sell and the company folded in April 2020.
 
@@ -43,24 +44,21 @@ EXPERIENCE
   Senior Software Developer
 
   Joined a small team of developers at Xome. Worked on breaking apart a small 
-  monolithic application into smaller services. Each service had a Postgres backend 
+  monolithic application into smaller services.  Each service had a Postgres backend 
   to store (mostly) JSON data using the JSONB column type in Postgres. Each
-  service exposed a REST interface and (initially) all intra-service communication 
-  was done via REST. All code ran within Docker containers on locally managed 
-  hardware.
+  service exposed a REST interface and all intra-service communication was done via 
+  REST. All code ran within Docker containers on locally managed hardware.
 
   Maintained an accounting service of primary interest to the accounting group
   within Xome. Worked closely with the accountants when adding new features, and 
   made all technical decisions for the team. Was able to convert multiple by-hand
   projects into automated projects to the great relief of the accountants.
 
-  Added the first asynchronous requests to the new service architecture by
-  introducing a job queue and having requests place jobs on the queue. The job 
-  queueing software used is named Minion, a Postgres based job queueing system. 
-  It fit well within the current architecture and expertise of the team. Introducting 
-  a different system, such as RabbitMQ, would have been more difficult and Minion 
-  worked extremely well given the architecture and performance needs of the project.
-  
+  Was a member of a team that worked on rapid deployment of each of our new services.
+  We used Jenkins as our CD platform and the end result was deployment to multiple
+  hosts running docker containers. We reached our goal of under 10 seconds per 
+  deployment allowing very quick interation for all developers.
+
 
   OpenX
   Senior Software Developer
@@ -79,7 +77,7 @@ EXPERIENCE
   wrote configuration files for various monitoring systems, controlled which
   users could access which hosts, and re-provisioned hosts.
   
-  At the core of the data center management system is a web-based API that
+  At the core of the data center management system was a web-based API that
   allowed for things such as creating virtual machines, allocating physical
   machines, rebooting hosts, and creating new images for our machines. This API
   was backed by several different services each using its own backend (primarily
