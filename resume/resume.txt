@@ -30,11 +30,11 @@ EXPERIENCE
   October 2019 - April 2020 (company folded)
   Senior Software Developer
   
-  Worked on services, written in both Go and Perl, that were meant to be used 
-  for the tracking and management of silicon wafers during the assembly of
-  semiconductors. The services provided an API to query and manipulating the 
-  metadata for individual wafers as well as groups of wafers known as 'lots'.
-  The backend datastore was SQLite. 
+  Worked on services, written in Go, that were meant to be used for the tracking 
+  and management of silicon wafers during the assembly of semiconductors. The 
+  services provided an API to query and manipulate the metadata for individual 
+  wafers as well as groups of wafers known as 'lots'. The backend datastore was 
+  SQLite. 
 
   Unfortunately the software did not sell and the company folded in April 2020.
 
