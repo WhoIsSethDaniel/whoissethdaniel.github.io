@@ -125,6 +125,7 @@ Stackoverflow.</p>
   </li>
   <li><a href="https://github.com/dariubs/GoBooks/blob/master/README.md">Go Books</a></li>
   <li><a href="https://gobyexample.com/">Go By Example</a></li>
+  <li><a href="https://yourbasic.org/golang/">Go Go-To Guide</a></li>
   <li><a href="https://gophercises.com/">Gophercises</a></li>
   <li><a href="https://golang.org/ref/spec">The Go Programming Language Specification</a> - the specification document for Go
     <ul>
@@ -207,9 +208,11 @@ Code</a></li>
       <li><a href="https://dave.cheney.net/2020/04/25/inlining-optimisations-in-go">Inlining optimisations in Go</a></li>
       <li><a href="https://dave.cheney.net/2020/05/09/ensmallening-go-binaries-by-prohibiting-comparisons">Ensmallening Go binaries by prohibiting comparisons</a></li>
       <li><a href="https://dave.cheney.net/high-performance-json.html">Building a high performance JSON parser</a></li>
+      <li><a href="https://dave.cheney.net/2019/09/05/dont-force-allocations-on-the-callers-of-your-api">The acme of foolishness</a></li>
     </ul>
   </li>
   <li><a href="https://gopheracademy.com/">Gopher Academy Blog</a></li>
+  <li><a href="https://www.gobeyond.dev/">Go Beyond</a></li>
   <li><a href="https://eli.thegreenplace.net/tag/go">The Green Place</a>
     <ul>
       <li><a href="https://eli.thegreenplace.net/2020/you-dont-need-virtualenv-in-go/">You Don't Need Virtualenv in Go</a></li>
@@ -235,10 +238,13 @@ Code</a></li>
   <li><a href="https://blog.merovius.de/2017/08/14/why-context-value-matters-and-how-to-improve-it.html">Why context.Value matters and how to improve it</a></li>
 </ul>
 
-<h3 id="database--datastore">Database / Datastore</h3>
+<h3 id="database--datastore--sql">Database / Datastore / SQL</h3>
 <ul>
+  <li><a href="https://github.com/gchaincl/dotsql">DotSQL</a> - A Golang library for using SQL</li>
   <li><a href="https://lakefs.io/2020/09/29/improving-postgres-performance-tenfold-using-go-concurrency/">Improving Postgres Performance Tenfold Using Go Concurrency</a></li>
   <li><a href="https://golangbot.com/connect-create-db-mysql/">MySQL Tutorial: Connecting to MySQL and Creating a DB using Go</a></li>
+  <li><a href="https://github.com/kyleconroy/sqlc">SQLC</a> - Generate type safe Go from SQL</li>
+  <li><a href="https://github.com/Masterminds/squirrel">Squirrel</a> - Fluent SQL generation for golang</li>
   <li><a href="https://andrewpillar.com/programming/2020/04/07/working-with-sql-relations-in-go-part-1/">Working with SQL Relations in Go - Part 1</a></li>
 </ul>
 
@@ -246,6 +252,7 @@ Code</a></li>
 <ul>
   <li><a href="https://stackoverflow.com/questions/48224908/better-error-handling">Better Error Handling</a></li>
   <li><a href="https://www.dolthub.com/blog/2020-11-16-panics-to-errors/">Don’t Panic</a> - removal of usage of panics for returning errors; discusses errgroup</li>
+  <li><a href="https://thingsthatkeepmeupatnight.dev/posts/golang-http-handler-errors/">Elegance of Go’s error handling</a></li>
   <li><a href="https://commandcenter.blogspot.com/2017/12/error-handling-in-upspin.html">Error Handling in Upspin</a></li>
   <li><a href="https://middlemost.com/failure-is-your-domain/">Failure is your Domain</a></li>
   <li><a href="https://medium.com/a-journey-with-go/go-multiple-errors-management-a67477628cf1">Go: Multiple Errors Management</a></li>
@@ -266,6 +273,7 @@ Code</a></li>
 
 <h3 id="interfaces">Interfaces</h3>
 <ul>
+  <li><a href="https://www.calhoun.io/crash-course-on-go-interfaces/">Crash Course on Go Interfaces</a></li>
   <li><a href="https://github.com/Evertras/go-interface-examples/tree/master/local-interfaces">Defining Interfaces Locally</a> -
 includes lots of code samples</li>
   <li><a href="https://gianarb.it/blog/interface-segreation-in-action-with-go">Interface segregation in action with Go</a></li>
@@ -278,8 +286,11 @@ includes lots of code samples</li>
 
 <h3 id="json--json-parsing">JSON / JSON Parsing</h3>
 <ul>
+  <li><a href="https://iaziz786.com/blog/golang-arbitrary-json">How to Work with Arbitrary JSON in Go?</a></li>
   <li><a href="https://blog.min.io/simdjson-go-parsing-gigabyes-of-json-per-second-in-go/">simdjson-go: Parsing gigabytes of JSON per second in Go</a></li>
   <li><a href="https://klotzandrew.com/blog/speeding-up-json-processing-in-go">Speeding up json processing in go</a></li>
+  <li><a href="https://code-and-biscuits.blogspot.com/2020/12/go-unmarshalling-complicated-json.html">Unmarshalling odd and irregular JSON in Go</a></li>
+  <li><a href="https://eli.thegreenplace.net/2020/unmarshaling-time-values-from-json/">Unmarshaling Time values from JSON</a></li>
   <li><a href="https://qvault.io/2020/04/21/use-anonymous-structs-for-json-marshalling-in-go/">Use Anonymous Structs For JSON Marshalling in Go</a></li>
 </ul>
 
@@ -419,6 +430,7 @@ endorsement of the content of any of these articles.</p>
   </li>
   <li><a href="https://medium.com/kalamsilicon/hash-tables-implementation-in-go-48c165c54553">Hash Table Implementation in Go</a></li>
   <li><a href="https://www.rodrigoaraujo.me/posts/golang-pattern-graceful-shutdown-of-concurrent-events/">Golang pattern: graceful shutdown of concurrent events</a></li>
+  <li><a href="https://kinbiko.com/posts/2021-01-10-function-types-in-go/">Function Types in Go</a></li>
 </ul>
 
 <h1 id="code">Code</h1>
@@ -438,7 +450,7 @@ A simple categorization of Go package links I’ve collected.</p>
   <li><a href="https://github.com/spf13/viper">viper</a> - Go configuration with fangs</li>
 </ul>
 
-<h3 id="database--datastore-1">Database / Datastore</h3>
+<h3 id="database--datastore">Database / Datastore</h3>
 <ul>
   <li><a href="https://github.com/gocraft/dbr">dbr</a> - additions to Go’s database/sql for super fast performance and convenience</li>
   <li><a href="https://entgo.io/">Ent</a> - An entity framework for Go</li>
@@ -595,6 +607,12 @@ A simple categorization of Go package links I’ve collected.</p>
   <li><a href="https://github.com/jesseduffield/lazygit">lazygit</a> - simple terminal UI for git commands</li>
 </ul>
 
+<h3 id="templates--templating">Templates / Templating</h3>
+<ul>
+  <li><a href="https://github.com/jpillora/go-template">go-template</a> - An automatic cross-compiling Go (golang) repository template using goreleaser and Github actions</li>
+  <li><a href="https://github.com/jba/templatecheck">templatecheck</a> - Checking Go templates for validity</li>
+</ul>
+
 <h3 id="testing-2">Testing</h3>
 <ul>
   <li><a href="https://github.com/ory/dockertest">dockertest</a> - run your Go language integration tests against third party services</li>
@@ -637,7 +655,6 @@ Kafka</li>
   <li><a href="https://github.com/tinylib/msgp">msgp</a> - MessagePack Code Generator</li>
   <li><a href="https://github.com/gotestyourself/gotestsum">gotestsum</a> - ‘go test’ output formatting</li>
   <li><a href="https://github.com/jondot/goweight">goweight</a> - analyze/troubleshoot a go binary</li>
-  <li><a href="https://github.com/jpillora/go-template">go-template</a> - An automatic cross-compiling Go (golang) repository template using goreleaser and Github actions</li>
   <li><a href="https://github.com/endiangroup/compandauth">compandauth</a> - see accompanying <a href="https://endian.io/articles/compandauth/">article</a></li>
   <li><a href="https://github.com/akornatskyy/scheduler">scheduler</a> - cron-like job scheduler</li>
   <li><a href="https://github.com/cch123/supermonkey">supermonkey</a> - monkey patching</li>
@@ -650,6 +667,11 @@ Kafka</li>
   <li><a href="https://github.com/1pkg/gohalt">gohalt</a> - Go Throttler library</li>
   <li><a href="https://github.com/casbin/casbin">casbin</a> - authorization library that supports access control models like ACL, RBAC, ABAC</li>
   <li><a href="https://github.com/bufbuild/buf">buf</a> - A new way of working with Protocol Buffers (more <a href="https://buf.build/">details</a>)</li>
+  <li><a href="https://github.com/bwplotka/bingo">bingo</a> - CI Automating versioning of Go binaries in a nested, isolated Go modules</li>
+  <li><a href="https://github.com/jhchabran/gistfs">gistfs</a> - A Go io/fs filesystem implementation for reading files in a Github gist</li>
+  <li><a href="https://github.com/go-bindata/go-bindata">go-bindata</a> - Turn data file into go code</li>
+  <li><a href="https://github.com/KyleBanks/depth">depth</a> - Visualize Go dependency trees</li>
+  <li><a href="https://github.com/go-task/task">task</a> - A task runner / simpler Make alternative written in Go</li>
 </ul>
 
 </div>
