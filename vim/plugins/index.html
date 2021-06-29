@@ -113,7 +113,7 @@
   <li><a href="#case">Case</a></li>
   <li><a href="#clipboard">Clipboard</a></li>
   <li><a href="#code-development">Code Development</a></li>
-  <li><a href="#configuration">Configuration</a></li>
+  <li><a href="#configuration--local-config--per-directory-config">Configuration / Local Config / Per Directory Config</a></li>
   <li><a href="#cut--paste">Cut &amp; Paste</a></li>
   <li><a href="#diff">Diff</a></li>
   <li><a href="#document-conversion">Document Conversion</a></li>
@@ -140,6 +140,11 @@
   <li><a href="#terminal">Terminal</a></li>
   <li><a href="#text-objects">Text Objects</a></li>
   <li><a href="#tmux">Tmux</a></li>
+  <li><a href="#treesitter">TreeSitter</a>
+    <ul>
+      <li><a href="#treesitter-non-default-language-modules">TreeSitter (non-default) Language Modules</a></li>
+    </ul>
+  </li>
   <li><a href="#undo">Undo</a></li>
   <li><a href="#windows--tabs--buffers">Windows / Tabs / Buffers</a></li>
   <li><a href="#vim-script-development">Vim Script Development</a></li>
@@ -256,7 +261,6 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
   <li><a href="https://github.com/AndrewRadev/dsf.vim">Dsf</a> - delete surrounding function call</li>
   <li><a href="https://github.com/b3nj5m1n/kommentary">Kommentary</a> - Neovim commenting plugin, written in lua</li>
   <li><a href="https://github.com/da-x/name-assign.vim">Name Assign</a></li>
-  <li><a href="https://github.com/JoosepAlviste/nvim-ts-context-commentstring">nvim-ts-context-commentstring</a> - Neovim treesitter plugin for setting the commentstring based on the cursor location in a file</li>
   <li><a href="https://github.com/AndrewRadev/splitjoin.vim">Splitjoin</a></li>
   <li><a href="https://github.com/csexton/trailertrash.vim">Trailertrash</a></li>
   <li><a href="https://github.com/lieryan/vim-location-awareness">Vim Location Awareness</a> - contextual information</li>
@@ -340,7 +344,6 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
   <li><a href="https://github.com/nvim-lua/lsp-status.nvim">LSP Status</a> - Utility functions for getting diagnostic status and progress messages from LSP servers, for use in the Neovim statusline</li>
   <li><a href="https://github.com/folke/lsp-trouble.nvim">LSP Trouble</a> - A pretty diagnostics list to help you solve all the trouble your code is causing</li>
   <li><a href="https://github.com/RishabhRD/nvim-lsputils">LSP Utils</a> - Better defaults for nvim-lsp actions</li>
-  <li><a href="https://github.com/ray-x/navigator.lua">Navigator</a> - Navigate code like a breeze. Exploring LSP and￼Treesitter symbols a piece of pie.</li>
   <li><a href="https://github.com/kosayoda/nvim-lightbulb">Nvim Lightbulb</a> - VSCode lightbulb for neovim’s built-in LSP</li>
   <li><a href="https://github.com/simrat39/symbols-outline.nvim">Symbols Outline</a> - A tree like view for symbols in Neovim using the Language Server Protocol</li>
   <li><a href="https://github.com/folke/lsp-trouble.nvim">Trouble</a> - A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing</li>
@@ -375,7 +378,6 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
 
 <h4 id="syntax-highlightling--syntax-color">Syntax Highlightling / Syntax Color</h4>
 <ul>
-  <li><a href="https://github.com/nvim-treesitter/nvim-treesitter">nvim-treesitter</a> - Nvim Treesitter configurations and abstraction layer</li>
   <li><a href="https://github.com/inkarkat/vim-SyntaxRange">SyntaxRange</a> - Define a different filetype syntax on regions of a buffer</li>
 </ul>
 
@@ -399,9 +401,11 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
   <li><a href="https://github.com/rcarriga/vim-ultest">Ultest</a> - the ultimate testing plugin for NeoVim</li>
 </ul>
 
-<h2 id="configuration">Configuration</h2>
+<h2 id="configuration--local-config--per-directory-config">Configuration / Local Config / Per Directory Config</h2>
 <ul>
+  <li><a href="https://github.com/ii14/exrc.vim">exrc</a> - Local vimrc files</li>
   <li><a href="https://github.com/weilbith/vim-localrc">Localrc</a></li>
+  <li><a href="https://github.com/windwp/nvim-projectconfig">nvim-projectconfig</a> - neovim projectconfig</li>
   <li><a href="https://github.com/tpope/vim-sensible">Sensible</a></li>
 </ul>
 
@@ -500,6 +504,8 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
   <li><a href="https://github.com/junegunn/limelight.vim">Limelight</a></li>
   <li><a href="https://github.com/PeterRincker/vim-narrow">Narrow</a></li>
   <li><a href="https://github.com/chrisbra/NrrwRgn">Narrow Region</a></li>
+  <li><a href="https://github.com/Pocco81/TrueZen.nvim">TrueZen.nvim</a> - Clean and elegant distraction-free writing for NeoVim</li>
+  <li><a href="https://github.com/folke/zen-mode.nvim">zen-mode.nvim</a> - Distraction-free coding for Neovim</li>
   <li><a href="https://github.com/markstory/vim-zoomwin">Zoomwin</a> - A vim plugin to zoom in on a single split window and restore the previous layout</li>
 </ul>
 
@@ -507,7 +513,6 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
 <ul>
   <li><a href="https://github.com/rhysd/vim-grammarous">grammarous</a></li>
   <li><a href="https://github.com/dpelle/vim-LanguageTool">LanguageTool</a></li>
-  <li><a href="https://github.com/lewis6991/spellsitter.nvim">Spellsitter</a> - Treesitter powered spellchecker</li>
   <li><a href="https://github.com/sedm0784/vim-you-autocorrect">You Autocorrect</a></li>
 </ul>
 
@@ -576,13 +581,14 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
   <li><a href="https://github.com/vim-scripts/errormarker.vim">Errormarker</a></li>
   <li><a href="https://github.com/kevinhwang91/nvim-bqf">nvim-bqf</a> - Better Quick Fix (nvim only)</li>
   <li><a href="https://github.com/gennaro-tedesco/nvim-jqx">nvim-jqx</a> - Populate the quickfix with json entries</li>
-  <li><a href="https://github.com/romainl/vim-qf">QF</a></li>
+  <li><a href="https://github.com/ten3roberts/qf.nvim">qf.nvim</a> - Extends the default quickfix and location lists for neovim</li>
   <li><a href="https://github.com/sk1418/QFGrep">QFGrep</a></li>
   <li><a href="https://github.com/bfrg/vim-qf-preview">QF Preview</a></li>
   <li><a href="https://github.com/romainl/vim-qlist">qlist</a></li>
   <li><a href="https://github.com/stefandtw/quickfix-reflector.vim">Quickfix Reflector</a></li>
   <li><a href="https://github.com/AndrewRadev/quickpeek.vim">Quickpeek</a></li>
   <li><a href="https://github.com/ronakg/quickr-preview.vim">Quickr Preview</a></li>
+  <li><a href="https://github.com/romainl/vim-qf">vim-qf</a></li>
 </ul>
 
 <h2 id="repl--interact-with-outside-programs">REPL / Interact with outside programs</h2>
@@ -653,7 +659,6 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
   <li><a href="https://github.com/cohama/lexima.vim">Lexima</a></li>
   <li><a href="https://github.com/andymass/vim-matchup">Matchup</a></li>
   <li><a href="https://github.com/windwp/nvim-autopairs">nvim-autopairs</a> - autopairs for neovim written by lua</li>
-  <li><a href="https://github.com/windwp/nvim-ts-autotag">nvim-ts-autotag</a> - Use treesitter to autoclose and autorename html tag</li>
   <li><a href="https://github.com/tmsvg/pear-tree">Pear Tree</a></li>
   <li><a href="https://github.com/steelsojka/pears.nvim">Pears</a> - Auto pair plugin for neovim</li>
   <li><a href="https://github.com/machakann/vim-sandwich">Sandwich</a></li>
@@ -707,7 +712,6 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
 <h2 id="text-objects">Text Objects</h2>
 <ul>
   <li><a href="https://github.com/michaeljsmith/vim-indent-object">indent-object</a> - text object representing lines of code at the same indent level</li>
-  <li><a href="https://github.com/nvim-treesitter/nvim-treesitter-textobjects">nvim-treesitter-textobjects</a> - textobjects from treesitter queries</li>
   <li><a href="https://github.com/wellle/targets.vim">targets</a></li>
   <li><a href="https://github.com/kana/vim-textobj-indent">textobj-indent</a> - text objects for indented blocks of lines</li>
   <li><a href="https://github.com/kana/vim-textobj-user">textobj-user</a></li>
@@ -720,6 +724,24 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
   <li><a href="https://github.com/aserowy/tmux.nvim">tmux.nvim</a> - tmux integration for nvim features pane movement and resizing from within nvim</li>
   <li><a href="https://github.com/christoomey/vim-tmux-navigator">Tmux Navigator</a></li>
   <li><a href="https://github.com/christoomey/vim-tmux-runner">Tmux Runner</a></li>
+</ul>
+
+<h2 id="treesitter">TreeSitter</h2>
+<ul>
+  <li><a href="https://github.com/ray-x/navigator.lua">Navigator</a> - Navigate code like a breeze. Exploring LSP and￼Treesitter symbols a piece of pie.</li>
+  <li><a href="https://github.com/nvim-treesitter/nvim-tree-docs">nvim-tree-docs</a> - Code documentation built with treesitter</li>
+  <li><a href="https://github.com/nvim-treesitter/nvim-treesitter">nvim-treesitter</a> - Nvim Treesitter configurations and abstraction layer</li>
+  <li><a href="https://github.com/nvim-treesitter/nvim-treesitter-refactor">nvim-treesitter-refactor</a> - Refactor module for nvim-treesitter</li>
+  <li><a href="https://github.com/nvim-treesitter/nvim-treesitter-textobjects">nvim-treesitter-textobjects</a> - textobjects from treesitter queries</li>
+  <li><a href="https://github.com/windwp/nvim-ts-autotag">nvim-ts-autotag</a> - Use treesitter to autoclose and autorename html tag</li>
+  <li><a href="https://github.com/JoosepAlviste/nvim-ts-context-commentstring">nvim-ts-context-commentstring</a> - Neovim treesitter plugin for setting the commentstring based on the cursor location in a file</li>
+  <li><a href="https://github.com/lewis6991/spellsitter.nvim">Spellsitter</a> - Treesitter powered spellchecker</li>
+</ul>
+
+<h3 id="treesitter-non-default-language-modules">TreeSitter (non-default) Language Modules</h3>
+<ul>
+  <li><a href="https://github.com/ganezdragon/tree-sitter-perl">perl</a> - Tree-sitter parser for Perl</li>
+  <li><a href="https://github.com/vigoux/tree-sitter-viml">vimL</a> - Tree-sitter parser for VimL</li>
 </ul>
 
 <h2 id="undo">Undo</h2>
