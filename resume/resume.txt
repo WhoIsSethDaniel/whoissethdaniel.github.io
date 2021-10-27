@@ -28,7 +28,7 @@ SKILLS
 EXPERIENCE
 
   ConnectWise
-  March 2021 - Present
+  March 2021 - September 2021
   Senior Software Developer
 
   Working with a small team on the ConnectWise client and two services that the
@@ -42,7 +42,8 @@ EXPERIENCE
   The primary mechanism of communication between all the services is Kafka with
   some direct messaging via HTTP. Data storage is provided by Cassandra. The
   storage of the client is done in Amazon S3. Access to the client is done via
-  a set of AWS Gateway endpoints. All services run in AWS.
+  a set of AWS Gateway endpoints. All services run in AWS. The client and all
+  services are written in Go.
 
 
   Silicon Shuttlecock
