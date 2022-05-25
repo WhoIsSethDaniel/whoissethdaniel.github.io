@@ -1,21 +1,28 @@
-
 <!DOCTYPE html>
-<html>
+
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ >
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>vim plugins - sethdaniel.dev</title>
+    <meta name="theme-color" content=#ffffff>
     <link rel="stylesheet" href="/assets/css/app.css">
     <link rel="shortcut icon" type="image/png"
            href="/favicon.png" 
     />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
     
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     
-    <!-- Begin Jekyll SEO tag v2.6.1 -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>vim plugins | sethdaniel.dev</title>
-<meta name="generator" content="Jekyll v3.9.0" />
+<meta name="generator" content="Jekyll v4.2.2" />
 <meta property="og:title" content="vim plugins" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Website for Seth Daniel. Contains things I am interested in. Things such as programming, technology, vim, go, golang, perl, and other things." />
@@ -23,10 +30,14 @@
 <link rel="canonical" href="https://www.sethdaniel.dev/vim/plugins/" />
 <meta property="og:url" content="https://www.sethdaniel.dev/vim/plugins/" />
 <meta property="og:site_name" content="sethdaniel.dev" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="vim plugins" />
 <script type="application/ld+json">
-{"description":"Website for Seth Daniel. Contains things I am interested in. Things such as programming, technology, vim, go, golang, perl, and other things.","@type":"WebPage","url":"https://www.sethdaniel.dev/vim/plugins/","headline":"vim plugins","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Website for Seth Daniel. Contains things I am interested in. Things such as programming, technology, vim, go, golang, perl, and other things.","headline":"vim plugins","url":"https://www.sethdaniel.dev/vim/plugins/"}</script>
 <!-- End Jekyll SEO tag -->
-<!-- head scripts --></head>
+
+    <!-- head scripts --></head>
 
   <body>
     
@@ -94,9 +105,10 @@
 
     <section class="section">
         <div class="container">
-            <div class="columns">
+            <div class="columns is-multiline">
                 
                 <div class="column is-12">
+                    
                     
                     
                     
@@ -694,14 +706,14 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
 
 <h2 id="repl--interact-with-outside-programs">REPL / Interact with outside programs</h2>
 <ul>
-  <li><a href="https://github.com/oncomouse/vim-autorepl">Autorepl</a> - Start REPLs quickly and easily</li>
+  <li><a href="https://github.com/oncomouse/vim-autorepl">vim-autorepl</a> - Start REPLs quickly and easily</li>
   <li><a href="https://github.com/ThePrimeagen/harpoon">harpoon</a> - get you where you want with the fewest keystrokes</li>
   <li><a href="https://github.com/hkupty/iron.nvim">iron.nvim</a> - Interactive Repl Over Neovim</li>
-  <li><a href="https://github.com/urbainvaes/vim-ripple">Ripple</a></li>
-  <li><a href="https://github.com/thinca/vim-quickrun">Quickrun</a></li>
-  <li><a href="https://github.com/jpalardy/vim-slime">Slime</a></li>
+  <li><a href="https://github.com/urbainvaes/vim-ripple">vim-ripple</a> - Minimalist plugin to interact with a REPL</li>
+  <li><a href="https://github.com/thinca/vim-quickrun">vim-quickrun</a> - Run commands quickly</li>
+  <li><a href="https://github.com/jpalardy/vim-slime">vim-slime</a> - A vim plugin to give you some slime</li>
   <li><a href="https://github.com/michaelb/sniprun">sniprun</a> - A neovim plugin to run lines/blocs of code (independently of the rest of the file), supporting multiples languages</li>
-  <li><a href="https://github.com/erietz/vim-terminator">Terminator</a> - Run your code in an output buffer or a vim terminal very conveniently</li>
+  <li><a href="https://github.com/erietz/vim-terminator">vim-terminator</a> - Run your code in an output buffer or a vim terminal very conveniently</li>
 </ul>
 
 <h2 id="scrolling">Scrolling</h2>
@@ -716,41 +728,40 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
 
 <h2 id="search--navigation--find--motion">Search / Navigation / Find / Motion</h2>
 <ul>
-  <li><a href="https://github.com/tpope/vim-abolish">Abolish</a></li>
-  <li><a href="https://github.com/osyo-manga/vim-anzu">Anzu</a></li>
-  <li><a href="https://github.com/haya14busa/vim-asterisk">vim-asterisk</a> - *-Improved</li>
   <li><a href="https://github.com/ldelossa/calltree.nvim">calltree.nvim</a> - Neovim’s missing call-hierarchy UI</li>
-  <li><a href="https://github.com/rhysd/clever-f.vim">clever-f</a></li>
-  <li><a href="https://github.com/romainl/vim-cool">Cool</a></li>
-  <li><a href="https://github.com/easymotion/vim-easymotion">Easymotion</a></li>
-  <li><a href="https://github.com/hrsh7th/vim-eft">EFT</a> - provides f/t/F/T mappings that can be customized by your setting.</li>
-  <li><a href="https://github.com/tpope/vim-endwise">Endwise</a></li>
-  <li><a href="https://github.com/othree/eregex.vim">eregex</a> - Perl/Ruby style regexp notation for Vim</li>
-  <li><a href="https://github.com/brooth/far.vim">Far</a></li>
-  <li><a href="https://github.com/kevinhwang91/nvim-hlslens">HlsLens</a> - Hlsearch Lens for Neovim</li>
+  <li><a href="https://github.com/rhysd/clever-f.vim">clever-f.vim</a> Extended f, F, t and T key mappings for Vim</li>
+  <li><a href="https://github.com/othree/eregex.vim">eregex.vim</a> - Perl/Ruby style regexp notation for Vim</li>
+  <li><a href="https://github.com/brooth/far.vim">far.vim</a> - Find And Replace Vim plugin</li>
   <li><a href="https://github.com/phaazon/hop.nvim">hop.nvim</a> - Neovim motions on speed</li>
-  <li><a href="https://github.com/zsugabubus/vim-jumpmotion">Jump Motion</a></li>
+  <li><a href="https://github.com/ggandor/leap.nvim">leap.nvim</a> - A motion plugin that keeps you in the zone</li>
   <li><a href="https://github.com/ggandor/lightspeed.nvim">lightspeed.nvim</a> - Reach on-screen targets with unparalleled speed</li>
-  <li><a href="https://github.com/wincent/loupe">Loupe</a></li>
-  <li><a href="https://github.com/inkarkat/vim-mark">Mark</a> - highlight several words in different colors simultaneously</li>
-  <li><a href="https://github.com/ipod825/msearch.vim">Msearch</a></li>
-  <li><a href="https://github.com/svermeulen/vim-NotableFt">NotableFT</a> - changes the behaviour of the f, F, t, T, ; and , commands to only match on characters that are considered ‘notable’</li>
+  <li><a href="https://github.com/wincent/loupe">loupe</a> - Enhanced in-file search for Vim</li>
+  <li><a href="https://github.com/ipod825/msearch.vim">msearch.vim</a> - Highlight multiple search patterns in vim</li>
   <li><a href="https://github.com/kevinhwang91/nvim-hlslens">nvim-hlslens</a> - Hlsearch Lens for Neovim</li>
   <li><a href="https://github.com/windwp/nvim-spectre">nvim-spectre</a> - Find the enemy and replace them with dark power</li>
   <li><a href="https://github.com/rlane/pounce.nvim">pounce.nvim</a> - Incremental fuzzy search motion plugin for Neovim</li>
-  <li><a href="https://github.com/unblevable/quick-scope">quick-scope</a></li>
-  <li><a href="https://github.com/wincent/scalpel">scalpel</a></li>
-  <li><a href="https://github.com/timakro/vim-searchant">Searchant</a></li>
-  <li><a href="https://github.com/qxxxb/vim-searchhi">Searchhi</a></li>
-  <li><a href="https://github.com/google/vim-searchindex">Searchindex</a></li>
-  <li><a href="https://github.com/PeterRincker/vim-searchlight">Searchlight</a></li>
-  <li><a href="https://github.com/justinmk/vim-sneak">Sneak</a> - Jump to any location specified by two characters</li>
-  <li><a href="https://github.com/markonm/traces.vim">Traces</a></li>
+  <li><a href="https://github.com/unblevable/quick-scope">quick-scope</a> - Lightning fast left-right movement in Vim</li>
+  <li><a href="https://github.com/wincent/scalpel">scalpel</a> - Fast within-file word replacement for Vim</li>
+  <li><a href="https://github.com/markonm/traces.vim">traces.vim</a> - Range, pattern and substitute preview for Vim</li>
+  <li><a href="https://github.com/tpope/vim-abolish">vim-abolish</a> - easily search for, substitute, and abbreviate multiple variants of a word</li>
+  <li><a href="https://github.com/osyo-manga/vim-anzu">vim-anzu</a> - Vim search status</li>
+  <li><a href="https://github.com/haya14busa/vim-asterisk">vim-asterisk</a> - *-Improved</li>
+  <li><a href="https://github.com/romainl/vim-cool">vim-cool</a> - A very simple plugin that makes hlsearch more useful</li>
+  <li><a href="https://github.com/easymotion/vim-easymotion">vim-easymotion</a> - Vim motions on speed</li>
+  <li><a href="https://github.com/hrsh7th/vim-eft">vim-eft</a> - provides f/t/F/T mappings that can be customized by your setting.</li>
+  <li><a href="https://github.com/tpope/vim-endwise">vim-endwise</a> - wisely add “end” in ruby, endfunction/endif/more in vim script, etc</li>
   <li><a href="https://github.com/pgdouyon/vim-evanesco">vim-evanesco</a> - Automatically clears search highlight</li>
   <li><a href="https://github.com/svermeulen/vim-extended-ft">vim-extended-ft</a> - extended f,t motions</li>
+  <li><a href="https://github.com/inkarkat/vim-mark">vim-mark</a> - highlight several words in different colors simultaneously</li>
+  <li><a href="https://github.com/svermeulen/vim-NotableFt">vim-NotableFt</a> - changes the behaviour of the f, F, t, T, ; and , commands to only match on characters that are considered ‘notable’</li>
+  <li><a href="https://github.com/zsugabubus/vim-jumpmotion">vim-jumpmotion</a> - Jump to anywhere using any motion in all modes: Lightweight alternative to vim-easymotion</li>
+  <li><a href="https://github.com/qxxxb/vim-searchhi">vim-searchhi</a> - Highlight the current search result differently</li>
+  <li><a href="https://github.com/google/vim-searchindex">vim-searchindex</a> - display number of search matches &amp; index of a current match</li>
+  <li><a href="https://github.com/PeterRincker/vim-searchlight">vim-searchlight</a> - Highlights the current search match</li>
   <li><a href="https://github.com/hrsh7th/vim-searchx">vim-searchx</a> - The extended search motion.</li>
   <li><a href="https://github.com/junegunn/vim-slash">vim-slash</a> - Enhancing in-buffer search experience</li>
-  <li><a href="https://github.com/chaoren/vim-wordmotion">Wordmotion</a></li>
+  <li><a href="https://github.com/justinmk/vim-sneak">vim-sneak</a> - Jump to any location specified by two characters</li>
+  <li><a href="https://github.com/chaoren/vim-wordmotion">vim-wordmotion</a> - More useful word motions for Vim</li>
 </ul>
 
 <h2 id="session--autosave">Session / AutoSave</h2>
@@ -802,7 +813,7 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
   <li><a href="https://github.com/itchyny/lightline.vim">Lightline</a></li>
   <li><a href="https://github.com/nvim-lualine/lualine.nvim">Lualine</a> - A blazing fast and easy to configure neovim statusline written in pure lua
     <ul>
-      <li><a href="https://github.com/arkav/lualine-lsp-progress">lualine-lsp-progress</a> - LSP Progress lualine componenet</li>
+      <li><a href="https://github.com/arkav/lualine-lsp-progress">lualine-lsp-progress</a> - LSP Progress lualine component</li>
     </ul>
   </li>
   <li><a href="https://github.com/SmiteshP/nvim-gps">nvim-gps</a> - Simple statusline component that shows what scope you are working inside</li>
@@ -880,41 +891,42 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
 
 <h2 id="windows--tabs--buffers">Windows / Tabs / Buffers</h2>
 <ul>
-  <li><a href="https://github.com/mattboehm/vim-accordion">Accordiaon</a> - window manager for people who love splits</li>
-  <li><a href="https://github.com/romgrk/barbar.nvim">Barbar</a> - a neovim tabline plugin</li>
-  <li><a href="https://github.com/rbgrouleff/bclose.vim">Bclose</a></li>
-  <li><a href="https://github.com/jlanzarotta/bufexplorer">bufexplorer</a></li>
-  <li><a href="https://github.com/bling/vim-bufferline">Bufferline</a></li>
-  <li><a href="https://github.com/el-iot/buffer-tree">Buffer Tree</a></li>
-  <li><a href="https://github.com/bagrat/vim-buffet">Buffet</a></li>
-  <li><a href="https://github.com/qpkorr/vim-bufkill">Bufkill</a></li>
-  <li><a href="https://github.com/ap/vim-buftabline">Buftabline</a></li>
-  <li><a href="https://github.com/t9md/vim-choosewin">Choosewin</a></li>
-  <li><a href="https://github.com/inkarkat/vim-CursorLineCurrentWindow">CursorLineCurrentWindow</a> - only highlight the screen line of the cursor in the currently active window</li>
-  <li><a href="https://github.com/blueyed/vim-diminactive">Dim Inactive</a> - dim inactive windows</li>
-  <li><a href="https://github.com/spolu/dwm.vim">DWM</a></li>
-  <li><a href="https://github.com/beauwilliams/focus.nvim">Focus</a> - Auto-Focussing Splits/Windows for Neovim</li>
-  <li><a href="https://github.com/roman/golden-ratio">Golden Ratio</a></li>
-  <li><a href="https://github.com/dm1try/golden_size">Golden Size</a> - Golden Size for your active Neovim window</li>
-  <li><a href="https://github.com/camspiers/lens.vim">Lens</a></li>
-  <li><a href="https://github.com/szw/vim-maximizer">Maximizer</a> - Maximizes and restores the current window in Vim</li>
+  <li><a href="https://github.com/romgrk/barbar.nvim">barbar.nvim</a> - a neovim tabline plugin</li>
+  <li><a href="https://github.com/rbgrouleff/bclose.vim">bclose.vim</a> - The BClose Vim plugin for deleting a buffer without closing the window</li>
+  <li><a href="https://github.com/jlanzarotta/bufexplorer">bufexplorer</a> - BufExplorer Plugin for Vim</li>
+  <li><a href="https://github.com/el-iot/buffer-tree">buffer-tree</a> - A vim-plugin for rendering your buffer-list as an ascii-tree, written entirely in Vimscript.</li>
+  <li><a href="https://github.com/spolu/dwm.vim">dwm.vim</a> - Tiled Window Management for Vim</li>
+  <li><a href="https://github.com/beauwilliams/focus.nvim">focus.vim</a> - Auto-Focussing Splits/Windows for Neovim</li>
+  <li><a href="https://github.com/roman/golden-ratio">golden-ratio</a> - Automatic resizing of Vim windows to the golden ratio</li>
+  <li><a href="https://github.com/dm1try/golden_size">golden size</a> - Golden Size for your active Neovim window</li>
+  <li><a href="https://github.com/camspiers/lens.vim">lens.vim</a> - A Vim Automatic Window Resizing Plugin</li>
   <li><a href="https://gitlab.com/yorickpeterse/nvim-window">nvim-window</a> - Easily jump between NeoVim windows</li>
   <li><a href="https://github.com/toppair/reach.nvim">reach.nvim</a> - Buffer, mark, tabpage switcher for Neovim</li>
+  <li><a href="https://github.com/mrjones2014/smart-splits.nvim">smart-splits.nvim</a> - Smart, directional Neovim split resizing and navigation. Think about resizing splits in terms of “move the divider to the left/right/up/down”</li>
   <li><a href="https://github.com/luukvbaal/stabilize.nvim">stabilize.nvim</a> - Neovim plugin to stabilize window open/close events</li>
   <li><a href="https://github.com/gillyb/stable-windows">stable-windows</a> - Keeps vim windows stable on layout changes</li>
-  <li><a href="https://github.com/gcmt/taboo.vim">Taboo</a></li>
-  <li><a href="https://github.com/ipod825/taboverflow.vim">Taboverflow</a></li>
-  <li><a href="https://github.com/andymass/vim-tradewinds">Tradewinds</a></li>
+  <li><a href="https://github.com/gcmt/taboo.vim">taboo.vim</a> - Few utilities for pretty tabs</li>
+  <li><a href="https://github.com/ipod825/taboverflow.vim">taboverflow.vim</a> - Too many tabs in vim? taboverflow comes in rescue!</li>
+  <li><a href="https://github.com/mattboehm/vim-accordion">vim-accordiaon</a> - window manager for people who love splits</li>
+  <li><a href="https://github.com/bling/vim-bufferline">vim-bufferline</a> - super simple vim plugin to show the list of buffers in the command bar</li>
+  <li><a href="https://github.com/bagrat/vim-buffet">vim-buffet</a> - IDE-like Vim tabline</li>
+  <li><a href="https://github.com/qpkorr/vim-bufkill">vim-bufkill</a> - delete buffer without closing the window</li>
+  <li><a href="https://github.com/ap/vim-buftabline">vim-buftabline</a> - Forget Vim tabs – now you can have buffer tabs</li>
+  <li><a href="https://github.com/t9md/vim-choosewin">vim-choosewin</a> - Land on window you chose like tmux’s ‘display-pane’</li>
+  <li><a href="https://github.com/inkarkat/vim-CursorLineCurrentWindow">vim-CursorLineCurrentWindow</a> - only highlight the screen line of the cursor in the currently active window</li>
+  <li><a href="https://github.com/blueyed/vim-diminactive">vim-diminactive</a> - dim inactive windows</li>
+  <li><a href="https://github.com/szw/vim-maximizer">vim-maximizer</a> - Maximizes and restores the current window in Vim</li>
+  <li><a href="https://github.com/andymass/vim-tradewinds">vim-tradewinds</a> - the missing window movement</li>
   <li><a href="https://github.com/pacha/vem-tabline">vem-tabline</a> - display buffers and tabs in the tabline</li>
-  <li><a href="https://github.com/JMcKiern/vim-venter">Venter</a></li>
+  <li><a href="https://github.com/JMcKiern/vim-venter">vim-venter</a> - Vim plugin that horizontally centers the current window(s)</li>
   <li><a href="https://github.com/marklcrns/vim-smartq">vim-smartq</a> - Master key for exiting/deleting vim buffers with respect to window splits and tabs.</li>
+  <li><a href="https://github.com/yaronkh/vim-winmanip">vim-winmanip</a> - moving/duplicating/maximizing vim windows</li>
+  <li><a href="https://github.com/mg979/vim-xtabline">vim-xtabline</a> - Tabline customization with buffer filtering</li>
   <li><a href="https://github.com/TaDaa/vimade">vimade</a> - fades your inactive buffers</li>
-  <li><a href="https://github.com/wellle/visual-split.vim">visual split</a> - control splits with visual selections or text objects</li>
+  <li><a href="https://github.com/wellle/visual-split.vim">visual-split.vim</a> - control splits with visual selections or text objects</li>
   <li><a href="https://github.com/chimay/wheel">wheel</a> - Quick navigation framework for Vim and Neovim : buffer groups, mru, locate, find, grep, outline, yank, …</li>
-  <li><a href="https://github.com/yaronkh/vim-winmanip/">winmanip</a> - moving/duplicating/maximizing vim windows</li>
   <li><a href="https://github.com/simeji/winresizer">winresizer</a> - very simple vim plugin for easy resizing of your vim windows</li>
   <li><a href="https://github.com/sindrets/winshift.nvim">winshift.nvim</a> - Rearrange your windows with ease</li>
-  <li><a href="https://github.com/mg979/vim-xtabline">xtabline</a> - Tabline customization with buffer filtering</li>
   <li><a href="https://github.com/bignimbus/you-are-here.vim">you-are-here.vim</a> - See the filenames of your vim splits in easy-to-read popups, switch windows seamlessly</li>
 </ul>
 
@@ -960,8 +972,10 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
   <li><a href="https://github.com/mhinz/vim-halo">Halo</a></li>
   <li><a href="https://github.com/AndrewRadev/inline_edit.vim">Inline Edit</a></li>
   <li><a href="https://github.com/farmergreg/vim-lastplace">Lastplace</a></li>
+  <li><a href="https://github.com/miversen33/netman.nvim">netman.nvim</a> - Neovim (Lua powered) Network Resource Manager</li>
   <li><a href="https://github.com/zegervdv/nrpattern.nvim">nrpattern.nvim</a> - Neovim plugin to expand incrementing/decrementing to more formats</li>
-  <li><a href="https://github.com/Iron-E/nvim-cartographer">nvim-cartographer</a> - Create Neovim <code>:map</code>pings in Lua with ease</li>
+  <li><a href="https://github.com/Iron-E/nvim-cartographer">nvim-cartographer</a> - Create Neovim <code class="language-plaintext highlighter-rouge">:map</code>pings in Lua with ease</li>
+  <li><a href="https://github.com/esensar/nvim-dev-container">nvim-dev-container</a> - Neovim dev container support</li>
   <li><a href="https://github.com/ethanholz/nvim-lastplace">nvim-lastplace</a> - A Lua rewrite of vim-lastplace</li>
   <li><a href="https://github.com/lazytanuki/nvim-mapper">nvim-mapper</a> - A neovim plugin that helps you keep track of your keymaps</li>
   <li><a href="https://github.com/bennypowers/nvim-regexplainer">nvim-regexplainer</a> - Describe the regexp under the cursor</li>
@@ -999,4 +1013,3 @@ thing. But, like this list, it is not <em>all</em> plugins.</p>
     
     <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
 </html>
-
